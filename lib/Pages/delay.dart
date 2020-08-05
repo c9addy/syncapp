@@ -23,7 +23,7 @@ class DelayState extends State<Delay> {
   }
 
   startTime() async {
-    var duration = new Duration(milliseconds: 1000);
+    var duration = new Duration(milliseconds: 2000);
     return new Timer(duration, route);
   }
 
